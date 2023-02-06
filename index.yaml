@@ -9,6 +9,6 @@ entries:
     name: nginx
     type: application
     urls:
-    - https://build-deploy-pipeline.github.io/nginx-helm-charts/nginx-0.1.0.tgz
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/nginx-0.1.0.tgz
     version: 0.1.0
 generated: "2023-02-06T21:59:20.658648+09:00"
