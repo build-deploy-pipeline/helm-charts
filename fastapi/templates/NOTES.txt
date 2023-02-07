@@ -1,0 +1,1 @@
+This is fastapi demo helm chart.
