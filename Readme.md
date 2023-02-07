@@ -6,7 +6,7 @@ helm package {chart 경로}
 ```
 3. helm chart index.yaml 생성
 ```shell
-helm repo index --url <github_repository_path> . --merge index.yaml
+helm repo index --url <github_repository_path> .
 ```
 4. index.yaml에서 각 chart url 수정
 5. git push
