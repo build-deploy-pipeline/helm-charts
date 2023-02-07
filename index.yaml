@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  fastapi:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-02-07T19:19:10.262554+09:00"
+    description: fastapi demo
+    digest: 4f7f9473a14674a1afc885d4314f5fd38e9cd070658ba68bbe9ba63c7f9f9db6
+    name: fastapi
+    type: application
+    urls:
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/fastapi-0.1.0.tgz
+    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T21:59:20.659183+09:00"
+    created: "2023-02-07T19:19:10.263168+09:00"
     description: A Helm chart for Kubernetes
     digest: b0510e0e7a15e968bf636a89cf2d23cad5c46c4daaa970b65f87274d800be4f4
     name: nginx
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/build-deploy-pipeline/helm-charts/raw/main/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-06T21:59:20.658648+09:00"
+generated: "2023-02-07T19:19:10.261748+09:00"
