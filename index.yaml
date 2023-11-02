@@ -9,7 +9,7 @@ entries:
     name: fastapi
     type: application
     urls:
-    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz/fastapi-0.1.0.tgz
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/fastapi-0.1.0.tgz
     version: 0.1.0
   keda:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     kubeVersion: '>=v1.23.0-0'
     name: keda
     urls:
-    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz/keda-2.12.0.tgz
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz
     version: 2.12.0
   nginx:
   - apiVersion: v2
@@ -31,6 +31,6 @@ entries:
     name: nginx
     type: application
     urls:
-    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz/nginx-0.1.0.tgz
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/nginx-0.1.0.tgz
     version: 0.1.0
 generated: "2023-11-02T22:02:51.950758+09:00"
