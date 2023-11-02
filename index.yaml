@@ -3,23 +3,34 @@ entries:
   fastapi:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-07T19:26:02.431213+09:00"
+    created: "2023-11-02T22:02:51.951828+09:00"
     description: fastapi demo
     digest: 4f7f9473a14674a1afc885d4314f5fd38e9cd070658ba68bbe9ba63c7f9f9db6
     name: fastapi
     type: application
     urls:
-    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/fastapi-0.1.0.tgz
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz/fastapi-0.1.0.tgz
     version: 0.1.0
+  keda:
+  - apiVersion: v2
+    appVersion: 2.12.0
+    created: "2023-11-02T22:02:51.959386+09:00"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: 70982f1763846e600361094f3b9290db03fe4109d2f2ce76406add0f29609e5c
+    kubeVersion: '>=v1.23.0-0'
+    name: keda
+    urls:
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz/keda-2.12.0.tgz
+    version: 2.12.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-07T19:26:02.431655+09:00"
+    created: "2023-11-02T22:02:51.959916+09:00"
     description: A Helm chart for Kubernetes
     digest: b0510e0e7a15e968bf636a89cf2d23cad5c46c4daaa970b65f87274d800be4f4
     name: nginx
     type: application
     urls:
-    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/nginx-0.1.0.tgz
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/keda-2.12.0.tgz/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-07T19:26:02.430864+09:00"
+generated: "2023-11-02T22:02:51.950758+09:00"
