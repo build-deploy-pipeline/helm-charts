@@ -22,7 +22,7 @@ entries:
     urls:
     - https://github.com/build-deploy-pipeline/helm-charts/raw/main/nginx-0.1.0.tgz
     version: 0.1.0
-  notvalid:
+  illegal:
   - apiVersion: v2
     appVersion: 0.1.0
     created: "2024-10-31T01:08:45.520681+09:00"
