@@ -28,7 +28,7 @@ entries:
     created: "2024-10-31T01:08:45.520681+09:00"
     description: A Helm chart for Kubernetes
     digest: 2153f32fa09f5e9f85fd45109aae93a862b886becf3ed9b61c1909125fd3ca9f
-    name: notvalid
+    name: illegal
     type: application
     urls:
     - https://github.com/build-deploy-pipeline/helm-charts/raw/main/illegal-0.1.0.tgz
