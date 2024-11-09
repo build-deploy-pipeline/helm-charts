@@ -3,7 +3,7 @@ entries:
   fastapi:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-10-31T01:08:45.5204+09:00"
+    created: "2024-11-09T14:00:28.001886+09:00"
     description: fastapi demo
     digest: 4f7f9473a14674a1afc885d4314f5fd38e9cd070658ba68bbe9ba63c7f9f9db6
     name: fastapi
@@ -11,10 +11,21 @@ entries:
     urls:
     - https://github.com/build-deploy-pipeline/helm-charts/raw/main/fastapi-0.1.0.tgz
     version: 0.1.0
+  lettuce-connection:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-11-09T14:00:28.002315+09:00"
+    description: A Helm chart for lettuce-connection
+    digest: 51c330a1a9b16163b685bc446b39e1a52ac09d44b31a3efbb11e04861c81a9fd
+    name: lettuce-connection
+    type: application
+    urls:
+    - https://github.com/build-deploy-pipeline/helm-charts/raw/main/lettuce-connection-0.1.0.tgz
+    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-31T01:08:45.525055+09:00"
+    created: "2024-11-09T14:00:28.00264+09:00"
     description: A Helm chart for Kubernetes
     digest: b0510e0e7a15e968bf636a89cf2d23cad5c46c4daaa970b65f87274d800be4f4
     name: nginx
@@ -22,15 +33,15 @@ entries:
     urls:
     - https://github.com/build-deploy-pipeline/helm-charts/raw/main/nginx-0.1.0.tgz
     version: 0.1.0
-  illegal:
+  notvalid:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-10-31T01:08:45.520681+09:00"
+    created: "2024-11-09T14:00:28.002111+09:00"
     description: A Helm chart for Kubernetes
-    digest: 2153f32fa09f5e9f85fd45109aae93a862b886becf3ed9b61c1909125fd3ca9f
+    digest: 1742cd49a85c10a7a2b2df114783192ba1180131e226b80db2d75bc18f0ab98e
     name: illegal
     type: application
     urls:
     - https://github.com/build-deploy-pipeline/helm-charts/raw/main/illegal-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-31T01:08:45.51973+09:00"
+generated: "2024-11-09T14:00:28.001299+09:00"
